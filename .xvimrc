@@ -1,0 +1,8 @@
+" Select the word under Caret
+nnoremap <S-Enter> viw
+ 
+" Control + i : Insert text at the end of the line
+nnoremap <A-i> $a
+
+" xcode, find select text
+map ,s viw:xccmd findSelectedTextInWorkspace<CR>
